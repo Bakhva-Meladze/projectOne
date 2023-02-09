@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "javascript/index.html",
+  "scripts": {
+    "start": "parcel javascript/index.html",
+    "build": "parcel build javascript/index.html --dist-dir ./dist"
+  },
+  "author": "Bakhva Meladze",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.23.3",
+    "fractional": "^1.0.0",
+    "parcel": "^2.6.2",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.52.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2"
+  }
+}
