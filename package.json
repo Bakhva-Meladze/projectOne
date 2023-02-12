@@ -4,8 +4,8 @@
   "description": "Recipe application",
   "default": "javascript/index.html",
   "scripts": {
-    "start": "parcel javascript/index.html",
-    "build": "parcel build javascript/index.html --dist-dir ./dist"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Bakhva Meladze",
   "license": "ISC",
