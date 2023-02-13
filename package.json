@@ -5,7 +5,9 @@
   "default": "javascript/index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "deploy": "parcel index.html",
+    "predeploy": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Bakhva Meladze",
   "license": "ISC",
