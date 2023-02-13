@@ -6,7 +6,7 @@ import resultsView from './views/resultsView.js';
 import paginationView from "./views/paginationView.js";
 import {getSearchResultPage} from "./model.js";
 import bookmarksView from "./views/bookmarksView.js";
-import previewView from "./views/previewView";
+import previewView from "./views/previewView.js";
 import addRecipeView from "./views/addRecipeView.js";
 
 
