@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bakhva-meladze.github.io/projectOne",
   "name": "javascript",
   "version": "1.0.0",
   "description": "Recipe application",
@@ -7,8 +8,8 @@
     "start-server": "npm start",
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
-    "deploy": "parcel index.html",
-    "predeploy": "parcel build index.html --dist-dir ./dist"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "author": "Bakhva Meladze",
   "license": "ISC",
