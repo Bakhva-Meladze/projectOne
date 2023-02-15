@@ -4,6 +4,7 @@
   "description": "Recipe application",
   "default": "javascript/index.html",
   "scripts": {
+    "start-server": "npm start",
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
     "deploy": "parcel index.html",
@@ -22,6 +23,7 @@
     "@parcel/transformer-sass": "^2.6.2",
     "browser-sync": "^2.27.11",
     "gulp": "^4.0.2",
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "start-server-and-test": "^1.15.4"
   }
 }
