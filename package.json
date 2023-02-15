@@ -1,5 +1,5 @@
 {
-  "homepage": "https://bakhva-meladze.github.io/projectOne",
+  "homepage": "http://bakhva-meladze.github.io/projectOne",
   "name": "javascript",
   "version": "1.0.0",
   "description": "Recipe application",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
     "browser-sync": "^2.27.11",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "parcel-bundler": "^1.12.5",
     "start-server-and-test": "^1.15.4"
