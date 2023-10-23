@@ -1,6 +1,6 @@
 .header {
   grid-area: head;
-  background-color: $color-grey-light-1;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,7 +13,7 @@
 }
 
 .search {
-  background-color: #fff;
+  background-color: darkred;
   border-radius: 10rem;
   display: flex;
   align-items: center;
