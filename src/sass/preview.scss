@@ -65,7 +65,7 @@
   &__title {
     grid-column: 1/-1;
     font-size: 1.45rem;
-    color: $color-primary;
+    color: darkred;
     text-transform: uppercase;
     font-weight: 600;
 
@@ -78,7 +78,7 @@
 
   &__publisher {
     font-size: 1.15rem;
-    color: $color-grey-dark-2;
+    color: darkred;
     text-transform: uppercase;
     font-weight: 600;
   }
